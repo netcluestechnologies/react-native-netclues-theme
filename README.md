@@ -34,7 +34,7 @@ yarn add @netclues/react-native-netclues-theme
 To use the theme manager, you need to import the relevant functions and themes into your React Native project.
 
 ```js
-import { themes, getAllThemes, setThemeColorsData, getSelectedThemeData } from 'react-native-netclues-theme';
+import { themes, getAllThemes, setThemeColorsData, getSelectedThemeData } from '@netclues/react-native-netclues-theme';
 ```
 
 ## Getting All Themes
@@ -64,7 +64,7 @@ You can use the selected theme in your components to style them according to the
 
 ```js
 import { StyleSheet, View, Text } from 'react-native';
-import { getSelectedThemeData } from 'react-native-netclues-theme';
+import { getSelectedThemeData } from '@netclues/react-native-netclues-theme';
 
 const theme = getSelectedThemeData();
 
