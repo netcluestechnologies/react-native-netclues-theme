@@ -34,7 +34,7 @@ yarn add @netclues/react-native-netclues-theme
 To use the theme manager, you need to import the relevant functions and themes into your React Native project.
 
 ```js
-import { themes, getAllThemes, setThemeColorsData, getSelectedThemeData } from 'your-package-name';
+import { themes, getAllThemes, setThemeColorsData, getSelectedThemeData } from 'react-native-netclues-theme';
 ```
 
 ## Getting All Themes
