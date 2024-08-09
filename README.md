@@ -11,11 +11,11 @@
 
 This package provides a predefined set of color themes for React Native applications, allowing easy switching between themes and storage of the selected theme. It also includes functions to get the current theme, set a new theme, and retrieve all available themes.
 
-Features
+## Features
 
-• Predefined Themes: Includes multiple color themes with support for both light and dark modes.
-• Storage Integration: Saves the selected theme to storage and retrieves it automatically.
-• Customizable: Easily extend or modify predefined themes.
+- **Predefined Themes:** Includes multiple color themes with support for both light and dark modes.
+- **Storage Integration:** Saves the selected theme to storage and retrieves it automatically.
+- **Customizable:** Easily extend or modify predefined themes.
 
 ## Installation
 
@@ -64,7 +64,7 @@ You can use the selected theme in your components to style them according to the
 
 ```js
 import { StyleSheet, View, Text } from 'react-native';
-import { getSelectedThemeData } from 'your-package-name';
+import { getSelectedThemeData } from 'react-native-netclues-theme';
 
 const theme = getSelectedThemeData();
 
@@ -88,27 +88,28 @@ export default App;
 ```
 
 ## Available Themes
+
 The package includes the following predefined themes:
 
-• Red
-• Pink
-• Purple
-• Deep Purple
-• Indigo
-• Blue
-• Light Blue
-• Cyan
-• Teal
-• Green
-• Light Green
-• Lime
-• Yellow
-•Amber
-•Orange
-•Deep Orange
-•Brown
-•Grey
-•Default
+- **Red**
+- **Pink**
+- **Purple**
+- **Deep Purple**
+- **Indigo**
+- **Blue**
+- **Light Blue**
+- **Cyan**
+- **Teal**
+- **Green**
+- **Light Green**
+- **Lime**
+- **Yellow**
+- **Amber**
+- **Orange**
+- **Deep Orange**
+- **Brown**
+- **Grey**
+- **Default**
 
 ## License
 
