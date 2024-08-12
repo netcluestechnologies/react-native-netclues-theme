@@ -1,5 +1,5 @@
 {
-  "name": "react-native-netclues-theme",
+  "name": "@netclues/react-native-netclues-theme",
   "version": "0.1.0",
   "description": "This package provides a predefined set of color themes for React Native applications, allowing easy switching between themes and storage of the selected theme. It also includes functions to get the current theme, set a new theme, and retrieve all available themes.",
   "main": "lib/commonjs/index",
@@ -158,5 +158,9 @@
   },
   "dependencies": {
     "react-native-mmkv": "^2.12.2"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
